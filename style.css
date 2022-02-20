@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.contem{
+    margin: 30px; 
+    background-color: rgb(94, 154, 172);
+    height: 520px;
+    width: 290px;
+}
+.calcular{
+    position: relative;  
+    margin: 18px;
+    top: 10px;
+    height: 100px;
+    width: 250px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 0 20px 0 10px;
+    box-shadow: 7px 2px 4px 1px rgba(0, 0, 0, 0.37);
+}
+.calcular >h1{
+    
+    padding-top:12%;
+    font-size: 350%;
+}
+.teclado{
+    position: relative;    
+    top: 20px;
+    cursor: pointer;
+    display: flex;
+    height: 70px;
+    width:  280px;
+    
+}
+.teclado > .MRC  {
+    width: 60px;
+    display: flex;
+    background: white;
+    height: 50px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    box-shadow: 5px 2px 2px 1px rgba(0, 0, 0, 0.37);
+
+}
+.teclado > .ZERO{
+    width: 130px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    box-shadow: 5px 2px 2px 1px rgba(0, 0, 0, 0.37);
+    height: 50px;
+    margin: 5px;
+    display: flex;
+}
+.teclado > #c{
+    background-color: rgb(255, 221, 127);
+}
+.teclado >#igual {
+    background-color: rgb(255, 221, 127);
+}
